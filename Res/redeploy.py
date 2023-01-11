@@ -43,8 +43,9 @@ while True:
             break
         time.sleep(0.05)
     pyautogui.moveTo(depP)
-    time.sleep(0.05)
+    time.sleep(1)
     pyautogui.click()
+    time.sleep(1)
     pydirectinput.press("esc")      
     while True:
         redepP = pyautogui.locateCenterOnScreen("redeploy.png", grayscale=True, confidence=0.6)
