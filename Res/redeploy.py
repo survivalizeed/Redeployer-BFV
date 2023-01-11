@@ -38,7 +38,7 @@ while True:
     if(not valid):
         continue
     while True:
-        depP = pyautogui.locateCenterOnScreen("deploy.png", grayscale=True, confidence=0.5)
+        depP = pyautogui.locateCenterOnScreen("deploy.png", grayscale=True, confidence=0.7)
         if depP is not None:
             break
         time.sleep(0.05)
@@ -47,7 +47,7 @@ while True:
     pyautogui.click()
     pydirectinput.press("esc")      
     while True:
-        redepP = pyautogui.locateCenterOnScreen("redeploy.png", grayscale=True, confidence=0.5)
+        redepP = pyautogui.locateCenterOnScreen("redeploy.png", grayscale=True, confidence=0.6)
         if redepP is not None:
             break
         time.sleep(0.05)
