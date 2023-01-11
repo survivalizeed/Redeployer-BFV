@@ -1,5 +1,7 @@
 # Redeployer-BFV
 
+## This is still in a very early state so please expect some malfunctions!
+
 ### What is this?
 ####  This script was made for BFV to automatically redeploy your player to collect deaths and push your K/D down
 
